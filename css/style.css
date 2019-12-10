@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, Verdana, sans-serif
+    
+}
+
+body {
+    font-family: Gotham, helvetica, verdana, sans-serif;
+    
+}
+
+header {
+    background: cadetblue;
+    padding: 10px;
+    margin-bottom: 50px;
+    
+}
+
+header h1 {
+    font-size: 30px;
+    color: white;
+    padding: 20px;
+    line-height: 0px;
+    text-transform: uppercase;
+    
+}
+
+
+a:link {
+    display: block;
+    padding: 20px;
+    color: black;
+    text-decoration: none;
+    }
+
+a:visited {
+    color: black;
+    }
+
+a:hover {
+    color: cadetblue;
+    font-weight: 700;
+    }
+
+
+footer {
+    margin-top: 50px;
+    padding: 20px;
+    background-color: cadetblue;
+    color: white;
+}
+
+

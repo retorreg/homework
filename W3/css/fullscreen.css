@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Applies to everything in the page*/
+
+/*HOMEWORK> FIXED MENU*/
+
+nav {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: fixed;  
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+nav a:link { 
+	font-size:14px;
+    padding: 15px;
+    background: white;
+    flex-grow: 1;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+nav a:visited {  
+    color: #fff;  
+}
+
+nav a:hover {    
+    background: grey;
+    color: #fff;  
+}
+
+/*HOMEWORK> FIXED MENU END*/
+
+section{
+    width: 100%;
+    min-height:  100vh; /*vh: ViewPort heigth. That is the height of the browser window*/
+    height: auto; 
+    position: relative;
+}
+
+#s1{
+    background: url(../images/bg1.jpg) no-repeat fixed center center; /*center center: Will always show the center of the image even when resizing*/
+    background-size: cover;
+}
+
+#s2{
+    background: url(../images/bg2.jpg) no-repeat fixed center center; /*center center: Will always show the center of the image even when resizing*/
+    background-size: cover;
+}
+
+#s3{
+    background: url(../images/bg3.jpg) no-repeat fixed center center; /*center center: Will always show the center of the image even when resizing*/
+    background-size: cover;
+}
+
+#s1 article{
+    width: 40%;
+    background-color: #eee;
+    padding: 20px;
+    position: absolute;
+    right: 40px;
+    bottom: 40px;
+}
+
+#s2 article{
+    width: 40%;
+    background-color: #eee;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+
+#s2 h2{
+    color: #fff;
+    font-size: 32px;
+    margin-bottom: 10px
+}
+
+#s3 article{
+    width: 40%;    
+    padding: 20px;
+    background:#eee;
+    position: absolute;
+    right: 40px;
+    top:40px;
+}
+
+
+/*HW: Fixed bar and indend some paragraphs of the articles*/
+    
+
+
+#s2 #p2{
+    margin-left: 60px;
+    background-color: red;
+}
+

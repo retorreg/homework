@@ -1,0 +1,87 @@
+body {
+    background-color: paleturquoise;
+    font-family: Arial, Verdana, sans-serif
+    
+}
+
+body {
+    background-color: paleturquoise;
+    font-family: Gotham, helvetica, verdana, sans-serif
+    
+}
+
+header {
+    background: cadetblue;
+    padding: 10px;
+    
+}
+
+header h1 {
+    font-size: 30px;
+    color: white;
+    padding: 20px;
+    line-height: 0px;
+    text-transform: uppercase;
+    
+}
+
+header h2 {
+    font-size: 24px;
+    color: darkslategray;
+    padding: 20px;
+   
+}
+
+nav {
+    background-color: gray;
+}
+
+    nav a:link {
+        display: inline-block;
+        padding: 20px;
+        color: white;
+        text-decoration: none;
+    }
+
+    nav a:visited {
+        color: white;
+    }
+
+    nav a:hover {
+        background-color: darkslategray;
+        color: white;
+    }
+
+    nav a:active {
+        background-color: black;
+        color: white;
+    }
+
+article h1 {
+    font-size: 24px;
+    color: cadetblue;
+    padding: 20px;
+    
+}
+
+article p {
+    padding-left: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+
+article img {
+    width: 100%;
+    max-width: 1200px;
+}
+
+
+footer {
+    padding: 20px;
+    background-color: cadetblue;
+    color: white;
+}
+
+

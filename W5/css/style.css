@@ -1,0 +1,108 @@
+@charset "UTF-8";
+/* CSS Document */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    text-align: center;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;    
+	display: flex;
+	flex-wrap: wrap;
+	font-family: Verdana, sans-serif;
+
+}
+
+nav a:link { 
+	font-size:14px;
+    padding: 15px;
+    background: #FFD480;
+    flex-grow: 1;
+    text-decoration: none;
+    color: #000000;
+    text-align: center;  
+}
+
+nav a:hover {    
+    background: #FFF08C;
+    color: #000000;  
+}
+
+nav a:visited {    
+    color: #000000;  
+}
+
+#vidbanner {
+    position: fixed;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%,-50%);    
+    min-height: 100vh;
+    min-width: 100%;
+    widows: auto;
+    height: auto;
+    z-index: -1;
+    background: url(../images/cakes.JPG) no-repeat;
+    background-size: cover; 
+}
+
+
+header {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+hgroup {
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 40px;
+  color: #f1f1f1;
+  justify-content:flex-end;
+  text-align: center;
+  font-family: Verdana, sans-serif;
+  font-size: 2vmax; 
+
+}
+
+.content {
+	padding: 30px;
+	text-align:center;
+	display: flex;
+    align-items: flex-start;
+	justify-content: center;
+	width:100%;
+	background:#fff;
+	font-family: Verdana, sans-serif;
+
+
+}
+
+.content p {
+	font-size: 14px;
+    line-height: 24px;
+	width:700px;
+	padding:20px;
+
+}
+
+footer {
+    padding: 20px;
+    background-color: #FFD480;
+    color: black;
+}
+
+footer p {
+	font-family: Verdana, sans-serif;
+	padding: 10px;
+	font-size:12px;
+}

@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css?family=Overpass&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Varela+Round&display=swap');@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    text-align: center;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;    
+	display: flex;
+	font-family: 'Overpass', sans-serif;
+	flex-wrap: wrap;
+}
+
+nav a:link { 
+	font-size:14px;
+    padding: 15px;
+    background: cadetblue;
+    flex-grow: 1;
+    text-decoration: none;
+    color: #fff;
+    text-align: center;  
+	font-family: 'Overpass', sans-serif;
+}
+
+nav a:visited{  
+    color: #fff;  
+	font-family: 'Overpass', sans-serif;
+}
+
+nav a:hover{    
+    background: gray;
+    color: #fff;  
+	font-family: 'Overpass', sans-serif;
+}
+
+#s1{
+    width: 100%; 
+    height: 100vh;
+    background: url(../images/decor1.jpg) no-repeat fixed;
+    background-size: cover;
+    display: flex;
+   	justify-content: flex-end;
+    align-items: flex-end;
+}
+
+hgroup {
+    padding: 30px;
+	margin-bottom:30px;
+	margin-right:30px;
+    text-align: center;
+	background:white;
+	font-family: 'Varela Round', sans-serif;
+}
+
+.col1 {
+ width: 100%; 
+ padding: 20px 40px; 
+}
+
+.col1 h1{
+text-align:center;
+margin-left:auto;
+margin-right:auto;
+margin-bottom: 20px; 
+font-family: 'Pacifico', cursive;
+font-size:30px;
+
+}
+
+.col1 article{
+    column-count: 2;
+    column-gap: 20px;
+	font-family: 'Rubik', sans-serif;
+	font-size: 14px;
+
+}
+
+.col1 article p{
+    column-count: 2;
+    column-gap: 20px;
+	font-family: 'Rubik', sans-serif;
+	font-size: 14px;
+	margin-bottom: 20px;
+
+}
+
+.col1 article img{
+    width: 100%;
+    margin-bottom: 20px; 
+
+}
+
+
+
+
+.col2 {
+    width: 100%; 
+    min-height: 100vh;
+    height: auto;
+    background: url(../images/decor2.jpg) no-repeat fixed center center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-start;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.col2 article {
+    background: #fff;
+    padding: 20px;
+    margin:20px;
+    width: 60%;
+	font-family: 'Rubik', sans-serif;
+	font-size: 14px;
+}
+
+.col2 article p {
+    background: #fff;
+    margin-bottom: 20px;
+}
+
+
+#arthead {
+text-align:left;
+margin:30px;
+font-size: 1.5em;
+font-family: 'Pacifico', cursive;
+
+}
+
+#s2 {
+    
+    width: 100%; 
+    min-height: 100vh;
+    height: auto;
+    background: url(../images/about2.jpg) no-repeat fixed center center;
+    background-size: cover;
+    display: flex;
+    flex-flow: wrap row;
+    padding: 20px;
+    align-items: center;
+    
+}
+
+
+
+#s2 article {
+    
+    background: #fff;
+    padding: 20px;
+    margin: 20px; 
+    width: 40%; 
+}
+
+footer {
+    background: cadetblue;
+    padding: 20px;
+    color: white;
+}
+
+footer p {
+	font-family: 'Rubik', sans-serif;
+	padding: 10px;
+	font-size:12px;
+}

@@ -1,0 +1,117 @@
+#text-form h1 {
+    margin-top:40px;
+    font-size: 30px;
+    margin-left: 15px;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-family: Arial, sans-serif;
+}
+
+#text-form p {
+    line-height: 24px;
+    margin-left: 15px;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-family: Rubik, sans-serif;
+    margin-bottom: 20px; 
+}
+
+
+
+#formwrapper {
+	width: 50%;
+	background: #f4f7f8;
+	padding: 10px 20px;
+	margin: 20px auto;
+	border-radius: 8px;
+    display: flex;
+    margin-top:30px;
+}
+
+input[type=text], input[type=email] {
+    padding: 12px 0px 4px;
+    margin: 6px 0 20px;
+	border:none;
+    font-size:16px;
+    font-family: Arial, sans-serif;
+    color: #8a97a0;
+    background-color: #e8eeef;
+    transition:all .3s;
+	box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+	margin-bottom: 30px;
+    box-sizing: border-box; 
+    border-radius: 4px;
+    outline: none;
+    width: 100%;
+}
+
+input[type=text]:focus, input[type=email]:focus {
+    background: #d2d9dd;
+    color: #8a97a0;
+	outline: none;
+}
+
+input[type=submit] {
+   	position: relative;
+	display: block;
+    width: 100%;
+    background: cadetblue;
+    color: #fff;
+    padding: 15px;
+    margin: 14px 10px 14px 0;
+	outline: none;
+    border: none;
+    cursor: pointer;
+    font-size:14px;
+    font-family: Arial, sans-serif;
+    transition:all .3s;   
+    flex-grow: 1;
+    text-align: center; 
+    margin: 0 auto;
+}
+
+
+
+input[type=submit]:hover {
+    background: gray;
+    color: #fff;  
+	font-family: Arial, sans-serif;
+}
+
+textarea {
+    font-family: Arial, sans-serif;
+	background: rgba(255,255,255,.1);
+	border: none;
+	border-radius: 4px;
+	font-size: 16px;
+	margin: 0;
+	outline: 0;
+	padding: 10px;
+	width: 100%;
+	box-sizing: border-box; 
+	background-color: #e8eeef;
+	color:#8a97a0;
+	box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+	margin-bottom: 30px;
+}
+
+textarea:focus {
+    background: #d2d9dd;
+    color:#fff;
+	outline: none;
+}
+
+/*********FOOTER********/
+
+footer {
+    background-color: gray;
+    color: white;
+    padding: 20px;
+}
+
+footer p {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    padding: 10px;
+}
+
